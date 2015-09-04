@@ -1,0 +1,141 @@
+@charset "utf-8";
+/*===============
+contain : construct page layout like page background, 
+header, footer, global navigation and so on =====*/
+
+/*-----  contents -------
+
+	1: Wrap Section
+	2: Header Area
+		: gnavArea
+	3: Main Area
+		: contentArea
+		: sideArea
+	4: Footer Area
+	  
+----------------------*/
+/*
+===== 3: Main Area ===============================*/
+#mainArea {
+	width: 940px;
+	height: auto;
+	margin: 25px auto 0;
+	overflow: hidden;
+}
+/* #contentArea
+----------------------------*/
+#mainArea #contentArea {
+	width: 675px;
+	height: auto;
+	float:left;
+	margin-right:45px;
+}
+
+/*
+--------------------- .contentBlockContact001, .contentBlockContact002
+*/
+#mainArea #contentArea .contentBlockContact001, #mainArea #contentArea .contentBlockContact002{
+	overflow:hidden;
+	height:auto;
+	width:675px;
+	margin-bottom:35px;
+}
+#mainArea #contentArea .contentBlockContact001 #googleMap{
+	width:675px;height:450px;
+}
+
+/*
+--------------------- .contentColumnContact01
+*/
+#mainArea #contentArea .contentBlockContact002 .contentColumnContact01{
+	height:auto;
+	width:180px;
+	float:left;
+	margin-right:30px;	
+}
+.text01, .text02{
+	margin-bottom: 15px;
+	line-height: 15px;
+	font-size: 12px;
+	color: #414141;
+	font-family: 'helvetica_neue'; 
+}
+.text01 p, .text02 p{
+	font-size:12px !important; 
+	COLOR: #414141;
+}
+.text02 a{
+	color:#e8603c;
+	font-weight:bold;
+}
+.text02 span{
+	font-weight:bold;
+}
+
+/*
+--------------------- .contentColumnContact02
+*/
+#mainArea #contentArea .contentBlockContact002 .contentColumnContact02{
+	width:465px;
+	height:auto;
+	float:right;
+	font-family: 'bebas_font';
+}
+#mainArea #contentArea .contentBlockContact002 .contentColumnContact02 form{
+	width:465px;
+	height:auto;
+	font-size:12px !important; 
+}
+#mainArea #contentArea .contentBlockContact002 .contentColumnContact02 form input[type="text"], #mainArea #contentArea .contentBlockContact002 .contentColumnContact02 form input[type="email"]{
+	width:208px;
+	height:auto;
+	padding:10px;
+	margin-bottom:12px;
+	outline:none;
+	border:1px solid #e8663c;
+	color:#e8603c;
+}
+#mainArea #contentArea .contentBlockContact002 .contentColumnContact02 form textarea{
+	height:205px;
+	width:440px;
+	padding:10px;
+	margin-bottom:12px;
+	outline:none;
+	border:1px solid #e8663c;
+	color:#e8603c;
+}
+#mainArea #contentArea .contentBlockContact002 .contentColumnContact02 form input[type="submit"]{
+	padding:10px;
+	border:none;
+	background:#e8603c;
+	color:#fff;
+	outline:none;
+	cursor:pointer;
+}
+
+/*placeholder*/
+input[placeholder],
+[placeholder],
+*[placeholder] {
+	color:#e8603c;
+	/*font-weight:bold;*/
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #e8603c;
+	/*font-weight:bold;*/
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #e8603c;
+   opacity:  1;
+   /*font-weight:bold;*/
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #e8603c;
+   opacity:  1;
+   /*font-weight:bold;*/
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #e8603c;
+   /*font-weight:bold;*/
+}
+

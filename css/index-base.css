@@ -1,0 +1,131 @@
+@charset "utf-8";
+/*===============
+contain : local page style and so on =====*/
+
+/*-----  local contents -------
+-----------------------------*/
+
+/*jssor index*/
+
+/*Arrow Navigator Skin Begin*/
+/* jssor slider arrow navigator skin 05 css */
+/*
+.jssora05l              (normal)
+.jssora05r              (normal)
+.jssora05l:hover        (normal mouseover)
+.jssora05r:hover        (normal mouseover)
+.jssora05ldn            (mousedown)
+.jssora05rdn            (mousedown)
+*/
+.jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn
+{
+position: absolute;
+cursor: pointer;
+display: block;
+background: url(../images/a17.png) no-repeat;
+overflow:hidden;
+}
+.jssora05l { background-position: -10px -40px; }
+.jssora05r { background-position: -70px -40px; }
+.jssora05l:hover { background-position: -130px -40px; }
+.jssora05r:hover { background-position: -190px -40px; }
+.jssora05ldn { background-position: -250px -40px; }
+.jssora05rdn { background-position: -310px -40px; }
+
+/*Thumbnail Item Skin Begin*/
+/* jssor slider thumbnail navigator skin 01 css */
+/*
+.jssort01 .p           (normal)
+.jssort01 .p:hover     (normal mouseover)
+.jssort01 .pav           (active)
+.jssort01 .pav:hover     (active mouseover)
+.jssort01 .pdn           (mousedown)
+*/
+.jssort01 .w {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+}
+
+.jssort01 .c {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 141px;
+height: 120px;
+}
+
+.jssort01 .p:hover .c, .jssort01 .pav:hover .c, .jssort01 .pav .c {
+border-width: 0px;
+top: 2px;
+left: 2px;
+width: 141px;
+height: 120px;
+}
+
+.jssort01 .p:hover .c, .jssort01 .pav:hover .c {
+top: 0px;
+left: 0px;
+width: 141px;
+height: 120px;
+border: #fff 1px solid;
+}
+
+.slider {
+	width: 100%;
+	height: 495px;
+	margin-bottom: 30px;
+}
+.slider .slider1_container {
+	width: 940px;
+	margin: auto;
+}
+
+#mainArea #contentArea .columnBlockC01 {
+	width: 280px;
+	height: 255px;
+	margin-bottom: 46px;
+}
+#mainArea #contentArea .columnBlockC02 {
+	width: 280px;
+	height: 255px;
+	margin: 0 44px;
+}
+#mainArea #contentArea .titleBlockC01, #mainArea #contentArea .columnBlockC02 .titleBlockC01 {
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 35px;
+}
+#mainArea #contentArea .titleBlockC01 img, #mainArea #contentArea .columnBlockC02 .titleBlockC01 img {
+	width: 46px;
+	margin-right: 22px;
+}
+#mainArea #contentArea .titleBlockC01 h2, #mainArea #contentArea .columnBlockC02 .titleBlockC01 h2 {
+	color: #e8663c;
+	width: 212px;
+}
+#mainArea #contentArea .contentBlockC01 {
+	color: #414141;
+	font-size: 12px;
+	margin-bottom: 32px;
+}
+#mainArea #contentArea .btnMoreBlockC01 a {
+	text-decoration: none;
+	background-color: #e8663c;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'bebas_font';
+	padding: 12px 17px 10px 13px;
+}
+/* div#contentArea
+----------------------------*/
+
+
+
+
+
+
+/* div#sideArea
+----------------------------*/

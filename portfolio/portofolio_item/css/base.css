@@ -1,0 +1,84 @@
+@charset "utf-8";
+/*===============
+contain : construct page layout like page background, 
+header, footer, global navigation and so on =====*/
+
+/*-----  contents -------
+
+	1: Wrap Section
+	2: Header Area
+		: gnavArea
+	3: Main Area
+		: contentArea
+		: sideArea
+	4: Footer Area
+	  
+----------------------*/
+
+
+===== 3: Main Area ===============================*/
+#mainArea {
+	width:940px;
+	height:auto;
+	margin:24px 0 0 0;
+}
+/* contentArea
+----------------------------*/
+#mainArea #contentArea {
+	width:auto;
+	height:auto;
+	margin:0 0 28px 0;
+
+}
+#mainArea #contentArea .bannerBlokA01 {
+	width:auto;
+	height:auto;
+	margin:24px 0 0 0;
+}
+#mainArea #contentArea .contentAreaA01 {
+	width:auto;
+	height:173px;
+	margin:26px 0 50px 0;
+}
+#mainArea #contentArea .contentAreaA01 .txtcontentA01 {
+	width:auto;
+	height:48px;
+}
+#mainArea #contentArea .contentAreaA01 .txtcontentA02 {
+	width:auto;
+	height:99px;
+	margin:25px 0 0 0;
+}
+#mainArea #contentArea .contentAreaA02 {
+	width:auto;
+	height:20px;
+	margin:52px 0 0 0;
+	
+}
+#mainArea #contentArea .contentAreaA02 .relatedBlok {
+	width:940px;
+	height:20px;
+	background-image:url(../images/bgpatternA01.png);
+	background-repeat:repeat-x;
+	position:absolute;
+}
+#mainArea #contentArea .contentAreaA02 .relatedBlok .txt_h2 {
+	width:123px;
+	height:20px;
+	font:18px "Myriad Pro";
+	color:#e8603c;
+	background-color:#fff;
+	position:relative;
+	z-index:5;
+}
+/* sideArea
+----------------------------*/
+#mainArea #sideArea {
+}
+/*
+===== 3: Footer Area =============================*/
+#footerArea {
+}
+.clear {
+	clear: both;
+}

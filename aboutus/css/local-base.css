@@ -1,0 +1,150 @@
+@charset "utf-8";
+/*===============
+contain : construct page layout like page background, 
+header, footer, global navigation and so on =====*/
+
+/*-----  contents -------
+
+	1: Wrap Section
+	2: Header Area
+		: gnavArea
+	3: Main Area
+		: contentArea
+		: sideArea
+	4: Footer Area
+	  
+----------------------*/
+
+
+/*
+===== 1: Wrap Section ===========================*/
+
+
+
+/*
+===== 3: Main Area ===============================*/
+
+#mainArea #contentArea .contentBlok{
+	float:left;
+	width:670px;
+	height:auto;
+}
+
+#mainArea #contentArea .contentBlok .contentAreaA01 {
+	float:left;
+	width:670px;
+	height:46px;
+}
+#mainArea #contentArea .contentBlok .contentAreaA02 {
+	float:left;
+	width:auto;
+	height:230px;
+	margin:40px 0 0 0;
+}
+#mainArea #contentArea .contentBlok .contentAreaA02 .ImgBlockA01 {
+	float:left;
+	width:226px;
+	height:226px;
+	text-align:center;
+	border:1px solid #cccccc;
+	padding:2px;
+}
+#mainArea #contentArea .contentBlok .contentAreaA02 .txtImgA01 {
+	float:left;
+	width:420px;
+	height:226px;
+	margin:0 0 0 18px;
+	
+}
+#mainArea #contentArea .contentBlok .contentAreaA03 {
+	float:left;
+	width:670px;
+	height:151px;
+	margin:28px 0 0 0;
+}
+#mainArea #contentArea  .contentBlok .contentAreaA04 {
+	float:left;
+	width:670px;
+	height:87px;
+	margin:26px 0  50px 0;
+	
+}
+#mainArea #contentArea .contentBlok .contentAreaA05 {
+	float:left;
+	width:602px;
+	height:87px;
+	margin:0 0 36px 50px;
+	padding:0 0 0 17px;
+	border-left:5px solid #e8663c;
+	font-style:italic;
+}
+#mainArea #contentArea .contentBlok .contentAreaA06 {
+	float:left;
+	width:670px;
+	height:69px;
+	
+}
+#mainArea #contentArea .contentBlok .contentAreaA06 .contentAreaA06A{
+	float:left;
+	width:315px;
+	height:63px;
+	
+}
+#mainArea #contentArea .contentBlok .contentAreaA07 {
+	float:left;
+	width:720px;
+	height:85px;
+	margin:52px 0 35px 0;
+	
+}
+#mainArea #contentArea .contentBlok .contentAreaA07 ul {
+	width:720px;
+	height:auto;
+	
+}
+#mainArea #contentArea .contentBlok .contentAreaA07 ul li {
+	float:left;
+	width:210px;
+	margin:0 22px 0 0;
+	list-style-type:none;
+	
+}
+#mainArea #contentArea .contentBlok .contentAreaA07 ul li nth:child(3) {
+	margin-right:0;
+}
+
+#mainArea #contentArea .contentBlok  .contentAreaA08 {
+	float:left;
+	width:672px;
+	height:302px;
+	margin:0 0 40px 0;
+}
+#mainArea #contentArea .contentBlok .contentAreaA08 ul {
+	float:left;
+	width:672px;
+	height:302px;
+}
+#mainArea #contentArea .contentBlok .contentAreaA08 ul li {
+	list-style-type:none;
+	width:672px;
+	height:60px;
+	margin:0 0 18px 0;
+	
+}
+#mainArea #contentArea .contentBlok .contentAreaA07 ul li nth:child(4) {
+	margin-bottom:40px;
+}
+
+
+/*
+===== 3: Footer Area =============================*/
+#footerArea {
+}
+.clear {
+	clear: both;
+}
+@font-face {
+	font-family: "Myriad Pro";
+	src:url(../font/MYRIADPRO-REGULAR.OTF);
+	
+}

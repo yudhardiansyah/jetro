@@ -1,0 +1,410 @@
+@charset "utf-8";
+/*===============
+contain : such as strong text, margin set, basic list & font style and so on =====*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, sans-serif;
+	font-size:14px;
+}
+@font-face {
+	font-family: "Bebas";
+	src: url(../fonts/BEBAS.TTF);
+}
+/*---------------------------------
+text size
+---------------------------------*/
+.txt09 {
+	font-size: 9px;
+}
+.txt10 {
+	font-size: 10px;
+}
+.txt12 {
+	font-size: 12px;
+}
+.txt14 {
+	font-size: 14px;
+}
+.txt16 {
+	font-size: 16px;
+}
+.txt18 {
+	font-size: 18px;
+}
+.txt24 {
+	font-size: 24px;
+}
+.txt36 {
+	font-size: 36px;
+}
+.txt48 {
+	font-size: 48px;
+}
+.txt74{
+	font-size: 74px;
+}
+.txtBebas {
+	font-family: "Bebas";
+}
+.txtPd {
+	background-color: #FFF;
+    width: auto;
+    display: inline-block;
+    padding-right: 20px;
+}
+/*---------------------------------
+text layout
+---------------------------------*/
+.txtC{text-align:center !important;}
+.txtL{text-align:left!important;}
+.txtR{text-align:right!important;}
+
+.txtDecUL{text-decoration: underline;}
+.txtDecNon{text-decoration: none!important;}
+.vTop{vertical-align:top;}
+.vMid{vertical-align:middle;}
+.vBottom{vertical-align:bottom;}
+.bold{font-weight:bold;}
+.fwNormal{font-weight:normal;}
+.italic{font-style:italic; padding-right:3px;}
+.normal{font-size:100%!important;}
+.small{font-size:90%!important;}
+.xsmall{font-size:85%!important;}
+.xxsmall{font-size:70%!important;}
+.large{font-size:110%!important;}
+.xlarge{font-size:130%!important;}
+.xxlarge{font-size:150%!important;}
+.megalarge{font-size:200%!important;}
+.floatL{float:left;}
+.floatR{float:right;}
+.floatN{float:none!important;}
+
+/*-------------------------------------------
+font color
+-------------------------------------------*/
+.txtRed {
+	color: #e74c3c;
+}
+.txtGrey {
+	color: #979797;
+}
+.txtWhite{
+	color: #FFFFFF;
+}
+.txtGreen{
+	color: #38c23b;
+}
+.txtBlue{
+	color: #0e6eb1;
+}
+.txtRedNew {
+	color: #e8663c;
+}
+.current {
+	background-color: #e8663c;
+	color: #FFFFFF!important;
+}
+/*-------------------------------------------
+line height
+-------------------------------------------*/
+.lh09{
+	line-height:9px;
+}
+.lh10{
+	line-height:10px;
+}
+.lh11{
+	line-height:11px;
+}
+.lh12{
+	line-height:12px;
+}
+.lh13{
+	line-height:13px;
+}
+.lh14{
+	line-height:14px;
+}
+.lh15{
+	line-height:15px;
+}
+.lh16{
+	line-height:16px;
+}
+.lh17{
+	line-height:17px;
+}
+.lh18{
+	line-height:18px;
+}
+.lh19{
+	line-height:19px;
+}
+.lh20{
+	line-height:20px;
+}
+.lh21{
+	line-height:21px;
+}
+.lh22{
+	line-height:22px;
+}
+.lh23{
+	line-height:23px;
+}
+.lh24{
+	line-height:24px;
+}
+.lh36{
+	line-height:36px;
+}
+.lh48{
+	line-height:48px;
+}
+
+/*-------------------------------------------
+navigation
+-------------------------------------------*/
+
+/*-------------------------------------------
+sideContents
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+mainContents
+-------------------------------------------*/
+
+
+/*-------------------------------------------
+parts
+-------------------------------------------*/
+
+/*parts title*/
+
+
+
+/*-------------------------------------------
+Layout Adjust
+-------------------------------------------*/
+/* margin
+---------------------------------*/
+.m00 {
+	margin: 0!important;
+}
+.m05 {
+	margin: 5px!important;
+}
+.m10 {
+	margin: 10px!important;
+}
+.m15 {
+	margin: 15px!important;
+}
+.m20 {
+	margin: 20px!important;
+}
+.m25 {
+	margin: 25px!important;
+}
+.m30 {
+	margin: 30px!important;
+}
+.mt00 {
+	margin-top: 0 !important;
+}
+.mt05 {
+	margin-top: 5px !important;
+}
+.mt10 {
+	margin-top: 10px !important;
+}
+.mt15 {
+	margin-top: 15px !important;
+}
+.mt20 {
+	margin-top: 20px !important;
+}
+.mt25 {
+	margin-top: 25px !important;
+}
+.mt30 {
+	margin-top: 30px !important;
+}
+.mt35 {
+	margin-top: 35px !important;
+}
+.mt40 {
+	margin-top: 40px !important;
+}
+.mt50 {
+	margin-top: 50px !important;
+}
+.mb00 {
+	margin-bottom: 0 !important;
+}
+.mb05 {
+	margin-bottom: 5px !important;
+}
+.mb10 {
+	margin-bottom: 10px !important;
+}
+.mb15 {
+	margin-bottom: 15px !important;
+}
+.mb20 {
+	margin-bottom: 20px !important;
+}
+.mb25 {
+	margin-bottom: 25px !important;
+}
+.mb30 {
+	margin-bottom: 30px !important;
+}
+.mb35 {
+	margin-bottom: 35px !important;
+}
+.mb40 {
+	margin-bottom: 40px !important;
+}
+.mb50 {
+	margin-bottom: 50px !important;
+}
+.ml00 {
+	margin-left: 0 !important;
+}
+.ml05 {
+	margin-left: 5px !important;
+}
+.ml10 {
+	margin-left: 10px !important;
+}
+.ml15 {
+	margin-left: 15px !important;
+}
+.ml20 {
+	margin-left: 20px !important;
+}
+.ml25 {
+	margin-left: 25px !important;
+}
+.ml30 {
+	margin-left: 30px !important;
+}
+.ml35 {
+	margin-left: 35px !important;
+}
+.ml40 {
+	margin-left: 40px !important;
+}
+.ml50 {
+	margin-left: 50px !important;
+}
+.ml60 {
+	margin-left: 60px !important;
+}
+.ml100 {
+	margin-left: 100px !important;
+}
+.ml150 {
+	margin-left: 150px !important;
+}
+.ml170 {
+	margin-left: 170px !important;
+}
+.mr00 {
+	margin-right: 0 !important;
+}
+.mr05 {
+	margin-right: 5px !important;
+}
+.mr10 {
+	margin-right: 10px !important;
+}
+.mr15 {
+	margin-right: 15px !important;
+}
+.mr20 {
+	margin-right: 20px !important;
+}
+.mr25 {
+	margin-right: 20px !important;
+}
+.mr30 {
+	margin-right: 30px !important;
+}
+.mr35 {
+	margin-right: 30px !important;
+}
+.mr40 {
+	margin-right: 40px !important;
+}
+.mr50 {
+	margin-right: 50px !important;
+}
+.mr60 {
+	margin-right: 60px !important;
+}
+.mr100 {
+	margin-right: 100px !important;
+}
+.mr150 {
+	margin-left: 150px !important;
+}
+/* Padding
+---------------------------------*/
+.ph30{
+padding-left:30px;
+padding-right:30px;
+}
+/* Image
+---------------------------------*/
+.imgLeft {
+	text-align:left;
+}
+.imgCenter {
+	text-align:center;
+}
+.imgRight {
+	text-align:right;
+}
+/* width
+---------------------------------*/
+.w05 {
+	width: 5px;
+}
+.w10 {
+	width: 10px;
+}
+.w15 {
+	width: 15px;
+}
+.w20 {
+	width: 20px;
+}
+.w25 {
+	width: 25px;
+}
+.w30 {
+	width: 30px;
+}
+.w35 {
+	width: 35px;
+}
+.w40 {
+	width: 40px;
+}
+.w60 {
+	width: 60px;
+}
+.w80 {
+	width: 80px;
+}
+.w100 {
+	width: 100px;
+}
+
+/* float
+---------------------------------*/

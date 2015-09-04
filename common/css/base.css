@@ -1,0 +1,315 @@
+@charset "utf-8";
+/*===============
+contain : construct page layout like page background, 
+header, footer, global navigation and so on =====*/
+
+/*-----  contents -------
+
+	1: Wrap Section
+	2: Header Area
+		: gnavArea
+	3: Main Area
+		: contentArea
+		: sideArea
+	4: Footer Area
+	  
+----------------------*/
+
+body {
+	background: url(../images/bgBody.png) repeat;
+}
+
+/*@import url ("font/BEBAS.ttf");*/
+@font-face {
+  font-family: 'bebas_font';
+  src: url(../font/BEBAS.TTF); /* IE9 Compat Modes */
+}
+
+@font-face {
+	font-family: 'helvetica_neue';
+	src: url(../font/helvetica-neue-medium.ttf);
+}
+
+
+/*
+===== 1: Wrap Section ===========================*/
+#wrap {
+	margin: 0px;
+	padding: 0px;
+}
+#wrap #wrapInner {
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+}
+/*
+===== 2: Header Area ============================*/
+#headerArea {
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 22px;
+}
+#headerArea .headerInnerBlockA01 {
+	width: 940px;
+	margin: auto;
+	padding-top: 25px;
+}
+/* #gnavArea
+----------------------------*/
+#headerArea .headerInnerBlockA01 #gnavArea ul {
+	margin-top: 13px;
+}
+#headerArea .headerInnerBlockA01 #gnavArea ul li {
+	margin-right: 22px;
+}
+#headerArea .headerInnerBlockA01 #gnavArea ul li:last-child {
+	margin-right: 0px;
+}
+#headerArea .headerInnerBlockA01 #gnavArea ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #b9b9b9;
+}
+#headerArea .headerInnerBlockA01 #gnavArea ul li a:hover {
+	color: #e8663c; 
+}
+#headerArea .headerInnerBlockA01 #gnavArea .aktif {
+	color: #e8663c; 
+}
+/*
+===== 2.1: Dir Path Area ===============================*/
+#dirPathArea {
+	width: 100%;
+	margin-bottom: 28px;
+	background: url("../images/headerRule.png") repeat-x;
+	background-position: top;
+}
+#dirPathArea .dirPathInner {
+	width: 960px;
+	margin: 0 auto;
+	background: #fff;
+	overflow: hidden;
+}
+#dirPathArea .dirPathInner h1 {
+	text-transform: uppercase;
+	width: 922px;
+	font-size: 24px;
+	color: #fff;
+	background: #e8603c;
+	margin: 0 10px;
+	padding: 15px 0 15px 18px;
+	position: relative;
+}
+/*
+===== 3: Main Area ===============================*/
+#mainArea {
+	width: 100%;
+}
+/* #contentArea
+----------------------------*/
+#mainArea #contentArea {
+	width: 940px;
+	margin: auto;
+}
+/* #sideArea
+----------------------------*/
+#mainArea #sideArea {
+	width:220px;
+	height:auto;
+	float:right;
+	font-size:12px;
+	line-height:normal;
+	font-family: 'helvetica_neue';
+}
+/*.sideBlockA01*/
+#mainArea #sideArea .sideBlockA01, #mainArea #sideArea .sideBlockA02, #mainArea #sideArea .sideBlockA03{
+	width:220px;
+	height:auto;
+	margin-bottom:40px;
+}
+
+#mainArea #sideArea .sideBlockA01 .sideColumnA01, #mainArea #sideArea .sideBlockA02 .sideColumnA01, #mainArea #sideArea .sideBlockA03 .sideColumnA01{
+	width:220px;
+	height:auto;
+	margin-bottom:20px;
+	font-family: 'bebas_font';
+}
+#mainArea #sideArea .sideBlockA01 .sideColumnA01 .title{
+	width:110px;
+	height:auto;
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	color:#e8603c;
+}
+#mainArea #sideArea .sideBlockA01 .sideColumnA01 .background{
+	width:105px;
+	height:16px;
+	float:right;
+	background:url(../images/side_bg_001.png) no-repeat right;
+}
+#mainArea #sideArea .sideBlockA01 .sideColumnA02{
+	color:#464646;
+	line-height:15px;
+}
+#mainArea #sideArea .sideBlockA01 .sideColumnA02 p{
+	font-size:12px;
+}
+
+/*.sideBlockA02*/
+#mainArea #sideArea .sideBlockA02 .sideColumnA01 .title{
+	width:110px;
+	height:auto;
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	color:#e8603c;
+}
+#mainArea #sideArea .sideBlockA02 .sideColumnA01 .background{
+	width:105px;
+	height:16px;
+	float:right;
+	background:url(../images/side_bg_001.png) no-repeat right;
+}
+
+#mainArea #sideArea .sideBlockA02 .sideColumnA02 ul li a{
+	text-decoration:none;
+	color:#464646;
+	line-height:15px;
+}
+#mainArea #sideArea .sideBlockA02 .sideColumnA02 ul li a:hover{
+	text-decoration:none;
+	color:#e8603c;
+	line-height:15px;;
+}
+/*.sideBlockA03*/
+#mainArea #sideArea .sideBlockA03 .sideColumnA01 .title{
+	width:130px;
+	height:auto;
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	color:#e8603c;
+}
+#mainArea #sideArea .sideBlockA03 .sideColumnA01 .background{
+	width:85px;
+	height:16px;
+	float:right;
+	background:url(../images/side_bg_001.png) no-repeat right;
+}
+#mainArea #sideArea .sideBlockA03 .sideColumnA02{
+	height:auto;
+	width:220px;
+}
+#mainArea #sideArea .sideBlockA03 .sideColumnA02 ul li{
+	height: 48px;
+	width: 48px;
+	border: 1px solid #e8603c;
+	background: #f3af9d;
+	float: left;
+	margin:0 5px 5px 0px;
+
+}
+/*recent work*/
+#mainArea #contentArea .rowBlockA01 {
+	width: 940px;
+	height: auto;
+}
+#mainArea #contentArea .rowBlockA01 .rowBlockB01 {
+	width: 940px;
+	height: 19px;
+	margin: 0 0 24px 0;
+	background-image: url(../images/bgpatternA01.png);
+	background-repeat: repeat-x;
+}
+#mainArea #contentArea .portfolio-box {
+	position: relative; 
+	width: 220px;
+	height: 243px;
+	margin: 0 17px 30px 0;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+	border: 1px solid #dbdbdb;
+	cursor: pointer;
+}
+#mainArea #contentArea .portfolio-box .box {
+	position: relative;
+	width: 220px;
+    height: 183px;
+    cursor: pointer;
+    float: left;
+    overflow: hidden;
+	margin-bottom: 10px;
+}
+#mainArea #contentArea .portfolio-box .box .caption {
+	top:183px;
+	width: 220px;
+    height: 183px;
+	background-color: rgba(0,0,0,0.8);
+	background-image: url(../images/contents_ico_001.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;	
+	transition: all 300ms ease-out;
+}
+#mainArea #contentArea .portfolio-box .box:hover .caption {
+	-moz-transform: translateY(-183px);
+	-o-transform: translateY(-183px);
+	-webkit-transform: translateY(-183px);
+	transform: translateY(-183px);
+} 
+#mainArea #contentArea .portfolio-box:nth-child(4n){
+	margin-right: 0;
+}
+#mainArea #contentArea .rowBlockA01  .portfolio-box .textBlockA01 {
+	padding: 10px 0 0 14px;
+}
+#mainArea #contentArea  .rowBlockA01 .portfolio-box .textBlockA01 h2 {
+	width: 180px;
+	margin: 10px 0 0 0;
+}
+/*===== 4: Footer Area =============================*/
+#footerArea {
+	width: 100%;
+	height: 263px;
+	background: url("../images/footerRule.png") repeat;
+	clear:both;
+}
+#footerArea .footerInner {
+	width: 960px;
+	height: 263px;
+	margin: 0 auto;
+	background: #fff;
+	overflow: hidden;
+}
+#footerArea .footerInner .footerBlockD01 {
+	width: 905px;
+	height: 228px;
+	margin: 0 10px;
+	padding: 42px 0 0 35px;
+	background: #e8603c;
+	color: #fff;
+}
+#footerArea .footerInner .footerBlockD01 .footerBlockD02 {
+	width: 250px;
+}
+#footerArea .footerInner .footerBlockD01 .footerBlockD03 {
+	width: 250px;
+	margin: 0 55px;
+}
+#footerArea .footerInner .footerBlockD01 .footerBlockD02 h1, #footerArea .footerInner .footerBlockD01 .footerBlockD03 h1 {
+	margin-bottom: 29px;
+}
+#footerArea .footerInner .footerBlockD01 .footerBlockD03 span {
+	color: #f3b29d;
+}
+#footerArea .footerInner .footerBlockD01 .footerBlockD02 img {
+	cursor: pointer;
+	margin-right: 5px;
+}

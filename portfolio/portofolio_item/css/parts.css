@@ -1,0 +1,12 @@
+@charset "utf-8";
+/*===============
+contain : such as strong text, margin set, basic list & font style and so on =====*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, sans-serif;
+	font-size:14px;
+}
+/*.txtdirBlock{font:Regular 24px "bebas_font";color:#fff;}*/
+.txtBlokP{font:  12px 'helvetica_neue';color:#414141;line-height:160%;}

@@ -1,0 +1,27 @@
+@charset "utf-8";
+/*===============
+contain : such as strong text, margin set, basic list & font style and so on =====*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, sans-serif;
+	font-size:14px;
+}
+
+.txtdirBlock{font:Regular 24px "Myriad Pro";color:#fff;}
+.txtBlokP{font: 12px "Myriad Pro";color:#414141;line-height:160%;}
+.txtBlokP01{font: Regular italic 12px "Helvetica Neue";color:#414141;line-height:normal;}
+.txt_h3{margin:Regular 15px 0 0 14px;font:16px "Myriad Pro";color:#b9b9b9;}
+.txt_h4{margin:Regular 5px 0 0 14px;font:11px "Myriad Pro";color:#e8663c;}
+.marginTxt01{margin-top:28px;}
+.marginTxt02{margin-right: 31px;}
+.txtStyle{font:Bold 36px "Helvetica Neue";color:#e8603c;} 
+.bgBoxA01{background-color:#effeb9;border:1px solid #98c601;}
+.bgBoxA02{background-color:#fbcbc1;border:1px solid #eb5439;}
+.bgBoxA03{background-color:#ffe9ad;border:1px solid #fab418;}
+.bgBoxA04{background-color:#d1e4f3;border:1px solid #4d8fcb;}
+.alertBlock{width:84px;height:10px;margin:20px auto 0 auto; color:#98c601;}
+.alertBlock1{width:84px;height:10px;margin:20px auto 0 auto; color:#eb5439;}
+.alertBlock2{width:84px;height:10px;margin:20px auto 0 auto; color:#fab418;}
+.alertBlock3{width:84px;height:10px;margin:20px auto 0 auto; color:#4d8fcb;}
